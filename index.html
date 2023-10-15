@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header>
+        <div class="shoplogo">
+            <img src="https://static.pullandbear.net/2/static2/img/headLogo/logo_pull_white_new.svg" alt="">
+        </div>
+            <div class="products">
+                <select name="Shop">
+                    <option value="" disabled selected>Shop</option>
+                    <option value="women">Women</option>
+                    <option value="men">Men</option>
+                    <option value="kids">Kids</option>
+                </select>
+                <ul>
+                    <li>On Sale</li>
+                    <li>New Arrivals</li>
+                    <li>Brands</li>
+                </ul>
+            </div>
+            <div class="searchbar">
+                <i class="fa-solid fa-magnifying-glass" style="color: #5b5d62;"></i>
+                <input type="text" placeholder="Searh for products...">
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-cart-shopping" style="color: #f1f4f9;"></i>
+                <i class="fa-solid fa-user" style="color: #e5e7eb;"></i>
+            </div>
+
+    </header>
+    <section class="yourstyles">
+     <div class="texts">
+        <h1>FIND CLOTHES THAT MATCHS YOUR STYLE</h1>
+        <P>Browse through our diverse range of meticuliously crafted garments, designed to bring out your indiviuality and cater to your sense of style.</P>
+        <button>Shop Now</button>
+     </div>
+     <div class="aboutproducts">
+        <div class="firstproduct">
+            <h5>200+</h5>
+            <p>International Brands</p>
+        </div>
+        <div class="firstproduct">
+            <h5>2,000+</h5>
+            <p>High-Quality Products</p>
+        </div>
+        <div class="firstproduct">
+            <h5>30,000+</h5>
+            <p>Happy Customers</p>
+        </div>
+     </div>
+    </section>
+    <section class="brands">
+    <div><img src="data:image/png;base64,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" alt="versace"></div>
+    <div><img src="data:image/png;base64,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" alt="versace"></div>
+    <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAaCAMAAAC6jTM8AAAAbFBMVEUAAAD///8BAQH+/v4CAgIDAwP9/f2UlJTAwMClpaUnJyfv7+8qKirZ2dlISEjy8vJXV1fg4ODm5uZhYWGKioqfn583NzeDg4MyMjJCQkK5ubmwsLBOTk7T09MgICBpaWl4eHjJyckREREYGBh7C+5pAAAFfElEQVRIiW1WibaiOhDsCAQQkB3ZQf3/f3xVHVCv83JmvBCS3qp6kXuIdROsiwSB9E276tax2rQ+H+/1cMUx/3K5iPTbVOblWPe8iI0A1zeV5OPpcpwZy9xmY9NReNp8iQ1lMliRXvYhYzfJWpmvVcT8tbnFr/e4iwQ4tjaVSUqeq8IUWwGVSYn3NlATAorC92yMF2vyEJrn/FusbBDqVTiG47jbmgn3PWPGSNeja43nmX3bQ1poW6F5sc3jYq7DDFuPFUYjCDIn1posZUCoN7TGjjDqFVvj4eGW4HB+iI2ks9YzySy+TzvXxTROr1x1pQJ/rVkJRIsHu+MBtsbckA4uZqtc6LBM1oOoG2OKdYd7S0fohArvTm8WOLFXWSNKC0WNls5UhVTUJOeK8WJSCYDQgpsltqypaid+SBYFD8/rogEMFWDpFmMRHH0JISG/Qi/C8RYrDb1TgKF3N9EVemG3owu2YuNZ6IUECPBsvksNu28HLjdHSTzu8AcnK9H9BkqqGdYClg4fzDyovy4YXBvcNUuP0whWBHip1xj1AmoZZw96iVlDqCdSsZyV2E6nk9WaR8XvV3V+pJKns0EYhwZ6PfrL8+TIsOA92QgSIgh3DnxPiTHfUmXpnSaMMM54Oz8H4gcqBk/9w2wh9TYM0t+g7ljDLXdbOOxSZyKcABjEGkyZfvzlCfWXesmQO9TaGHo9U2l83RnN1s3kw8CjFSGpKSKS7+V4RS0+yQLYwUMzvRyHHqL+Onz1/6E3UNCMh4Aow21cXF21cbRCAj6vGUM3aBmAjPjQiEgG4kKwKI8CvXKrEMhs0My3d/w59OryT70EjdQHaDW+44qN4nBWzbDuVSFVgpYBaRVs45LECSEah7+nWCwCbGpmRWXTU++t4OrlSy8YaOwmBAKZStWmHGeXUDel2u654sfks17z0av+4mOpYueVZQoJr4mNOFoWLhVrkjzHv/DgFZgpBY9RrRTkF4xDujFZXFRGamcBowETHT/9dfzUOFuVWm0aptmSBDAgAhkDxfePXnhZLiy+3uQAlSKjDVDLP4qQYSIoR1VfTKvat14flt2YRx+9l6OQ2Zf0C2VcpPoT55YsWh5qbSNHq3mGC1gBe3Ey0iJQ7fVWFyMtmZ5CoL03vpeDz95XnKko0oIiW5Lr6//wqpOG7eTRs/do2e/rcEJGeg4EMK5KkqTKjQpnZWPGnf5e/MPfD69YpTaXwSGL1envVx4hnr08M3Jpc/3XZx+Q1wyD4XMh363TkgQ7/Z0++J75+8kjTUyeLgGOioW/33WjdXVSdmK5sPQx9+G1L0fT2NF8bNd1QzekytGYdcPTWvBP3QiOusH+p5lkb1V+08yqfuqkVb1s6xaW6eaFVRU3+woU3BHm8ZCu3T15/Qmq3Jp7cztL51EnAxJL4YjYi779PfuCdfmr1bk8kj5wZHmSuMOQIdbavMQ1s/k18uwVW5w8QtiyH/3o3Rc4mNTEyWORJhb/9EFP+4KwsEMB0ki9YzEIWJhgkX2evk20rtWSmtQK5kUe2Bp++qAGc9AKhBQkcC6gb1y0Gqd0sjEuUkXOFA3ID5ROhHgy8fv4TG7l7PvGTAep2IvX375Pt55alB7d6e/fOQdvV8al44d860He5O4ug2w5Jdau4nIppQcdA8pCd1gB9t85xw1/2tFHnXX8n7lOeXVVuSFjGEkICXk8BGt3Tzjx7KYcPnOEzk0xiy48geKUA167/s51mhRSc6Zq3Kwj/zPHpuwpUvAL0NhYhrPHkjnJkYnf8AZsgW4K24FX9YhwqLqv/8yxHDp9WfcwbPoDjv3P3F7w9+mKHSfzEJ0rLRoIzbO4YMUL0Q79t78pzzTc7+sps17Wcrj/ndv/Axy6S7IlQcc3AAAAAElFTkSuQmCC" alt="versace"></div>
+    <div><img src="data:image/png;base64,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" alt="versace"></div>
+    </section> 
+    <section class="clothes">
+        <h3>NEW ARRIVALS</h3>
+        <div class="card-group">
+            <div class="card">
+              <img src="https://static.pullandbear.net/2/photos//2023/I/0/2/p/7593/951/717/7593951717_2_10_8.jpg?t=1696522026120&imwidth=563" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">T-shirt with Tape details</h5>
+                <i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i>
+                <p class="card-text"><small class="text-body-secondary">$120</small></p>
+              </div>
+            </div>
+            <div class="card">
+                <img src="https://static.pullandbear.net/2/photos//2023/I/0/2/p/7593/951/711/7593951711_2_10_8.jpg?t=1696515086096&imwidth=563" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">T-shirt with Tape details</h5>
+                  <i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i>
+                  <p class="card-text"><small class="text-body-secondary">$120</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://static.pullandbear.net/2/photos//2023/I/0/2/p/7677/504/800/7677504800_2_10_8.jpg?t=1696515088174&imwidth=563" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">T-shirt with Tape details</h5>
+                  <i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i>
+                  <p class="card-text"><small class="text-body-secondary">$120</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://static.pullandbear.net/2/photos//2023/I/0/2/p/7677/504/707/7677504707_2_10_8.jpg?t=1696515088023&imwidth=563" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">T-shirt with Tape details</h5>
+                  <i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i><i class="fa-solid fa-star" style="color: #f97d48;"></i>
+                  <p class="card-text"><small class="text-body-secondary">$120</small></p>
+                </div>
+              </div>
+            
+          </div>
+
+    </section>
+</body>
+</html>
